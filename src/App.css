@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
 
 :root{
-  --card-bg: linear-gradient(135deg,  #faf1ea, #fbe7e7, #f8effd);
-  --card-bg-hover: linear-gradient(135deg,  #fae6d7, #f8d3d3, #edd6f9);
+  --card-bg: linear-gradient(135deg,  #ffffffd3, #b3f2dd90, #ffffffd3);
+  --card-bg-hover: linear-gradient(135deg, #b3f2dd90, #ffffffd3, #b3f2dd90);
+  --timeline-card-bg: #44b3f848;
+  --timeline-card-bg-hover: #44b3f88c;
   --card-border: 1px solid #aaa;
-  --header-bg: linear-gradient(-45deg,  #430115, #4f156d);
+  --header-bg: linear-gradient(-45deg,  #ffffffa5, #ffffff2a);
 }
 
 body, html {
@@ -55,7 +57,7 @@ body, html {
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(0, 0, 0);
   margin-bottom: 2rem;
 }
 
@@ -68,8 +70,13 @@ body, html {
   max-width : 700px;
 }
 
+.App-header h2 {
+  color: #ffffff;
+  background:  #000000;
+}
+
 .App-header a {
-  color: #007bff; /* Bright blue, adjust as needed */
+  color: #000dc7; /* Bright blue, adjust as needed */
   font-weight: 500;
   text-decoration: none;
   transition: color 0.3s ease, text-decoration 0.3s ease;
@@ -106,13 +113,13 @@ body, html {
   background: var(--card-bg);
   display: flex;
   flex-wrap: wrap;
-  flex: 0 0 250px;
+  flex: 0 0 290px;
   flex-direction: column;
   align-items: center;
   border: var(--card-border);
   border-radius: 8px;
   overflow: hidden;
-  transition: background 0.5s ease-in-out, box-shadow 0.3s ease-in-out;
+  transition: box-shadow 0.3s ease-in-out;
 }
 
 .ProjectCard:hover {
@@ -129,6 +136,7 @@ body, html {
   height: 40%; /* Will be the same as the .ProjectCard container */
   object-fit: cover; /* Cover the container area */
   object-position: center top; /* Crop from the bottom */
+  border-bottom: 1px solid #ddd;
 }
 
 .ProjectCard h2 {
@@ -138,7 +146,7 @@ body, html {
 }
 
 .ProjectCard .Authors, .Venue {
-  color:#686161;
+  color:#908b8b;
 }
 
 .ProjectCard p {
@@ -253,17 +261,17 @@ body, html {
   margin-left: 40px;
   margin-right: 40px;
   max-width:700px;
-  background: var(--card-bg); /* Light background for the items */
+  background: var(--timeline-card-bg); /* Light background for the items */
   border: var(--card-border); /* Subtle border */
   border-radius: 8px; /* Soft rounded corners */
-  transition: background 0.5s ease-in-out, box-shadow 0.3s ease-in-out;
+  transition: background 0.2s ease-in-out, box-shadow 0.5s ease-in-out;
 }
 
 
-.timeline-item:hover {
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  background: var(--card-bg-hover);
-}
+  .timeline-item:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background: var(--timeline-card-bg-hover);
+  }
 
 /* Width of the line */
 .timeline-container::before {

@@ -8,30 +8,31 @@
   },
   {
     "id": 2,
-    "title": "Applied Science Intern II",
-    "company": "Amazon Robotics",
-    "duration": "2023 - 2024",
-    "description": ""
+    "title": "PhD Research Intern - Mobile Robotics",
+    "company": "National Institute of Advanced Industrial Science and Technology (AIST)",
+    "location": "Tokyo, Japan",
+    "duration": "2024 - 2024 (3 - months)",
+    "description": "Using generative models for safe motion planning with mobile robots in crowded spaces (shopping malls, science museums, etc)."
   },
   {
     "id": 2,
     "title": "Postgraduate Teaching Assistant",
     "company": "University College London",
     "duration": "2020 - 2023",
-    "description": ""
+    "description": "Developing and assessing student coursework in C++ (Robot Sensing, Interaction, and Manipulation)"
   },
   {
     "id": 3,
-    "title": "Hardware Design and Verification Engineer (Image & Vision)",
-    "company": "ARM",
-    "duration": "2017 - 2018",
-    "description": ""
+    "title": "Data Scientist",
+    "company": "Explore AI",
+    "duration": "2019 - 2020",
+    "description": "Developed a data-science training course which compressed machine learning (regression, classiﬁcation, and unsupervised learning) into 6 months"
   },
   {
     "id": 3,
-    "title": "Research Intern, Computer Vision",
-    "company": "University of Manchester",
-    "duration": "2016 - 2016",
-    "description": ""
+    "title": "MSc Research Intern - Field Robotics",
+    "company": "Council for Scientific and Industrial Research (CSIR)",
+    "duration": "2017 - 2019",
+    "description": "Developed and maintained software for control and perception of a mobile manipulator robot"
   }
 ]
