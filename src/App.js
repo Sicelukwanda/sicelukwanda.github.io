@@ -36,23 +36,23 @@ function App() {
           the <a href="https://rpl-as-ucl.github.io/">Robot Perception and Learning Lab</a>.
         </p>
         <p>
-        <a href="https://github.com/Sicelukwanda" target="_blank">
+        <a href="https://github.com/Sicelukwanda" target="_blank" rel="noopener noreferrer">
           Github
         </a>
         &nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="https://www.linkedin.com/in/sicelukwanda/" target="_blank">
+        <a href="https://www.linkedin.com/in/sicelukwanda/" target="_blank" rel="noopener noreferrer">
           LinkedIn
         </a>
         &nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="mailto:sicelukwanda.zwane+w@gmail.com" target="_blank">
+        <a href="mailto:sicelukwanda.zwane+w@gmail.com" target="_blank" rel="noopener noreferrer">
           Email
         </a>
         &nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="https://scholar.google.com/citations?user=G4SfJqkAAAAJ&hl" target="_blank">
+        <a href="https://scholar.google.com/citations?user=G4SfJqkAAAAJ&hl" target="_blank" rel="noopener noreferrer">
           Google Scholar
         </a>
         &nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="CV.pdf" target="_blank">
+        <a href="CV.pdf" target="_blank" rel="noopener noreferrer">
         CV
         </a>
         
@@ -66,7 +66,7 @@ function App() {
       </div>
       <h1>Roles & Experience</h1>
       <h4>More detailed CV available
-      &nbsp;<a href="CV.pdf" target="_blank">
+      &nbsp;<a href="CV.pdf" target="_blank" rel="noopener noreferrer">
         here</a>
       </h4>
       <ExperienceTimeline experiences={experiencesData}/>
