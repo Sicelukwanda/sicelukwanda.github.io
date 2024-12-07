@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "https://sicelukwanda.com/static/css/main.222bfec5.css",
+    "main.js": "https://sicelukwanda.com/static/js/main.54923c57.js",
+    "static/js/453.a8034e78.chunk.js": "https://sicelukwanda.com/static/js/453.a8034e78.chunk.js",
+    "index.html": "https://sicelukwanda.com/index.html",
+    "main.222bfec5.css.map": "https://sicelukwanda.com/static/css/main.222bfec5.css.map",
+    "main.54923c57.js.map": "https://sicelukwanda.com/static/js/main.54923c57.js.map",
+    "453.a8034e78.chunk.js.map": "https://sicelukwanda.com/static/js/453.a8034e78.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.222bfec5.css",
+    "static/js/main.54923c57.js"
+  ]
+}
