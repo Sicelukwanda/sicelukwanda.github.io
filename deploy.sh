@@ -1,12 +1,17 @@
 # abort on errors
 set -e
 
-env PUBLIC_URL=https://sicelukwanda.github.io/ npm run build
+env PUBLIC_URL=https://sicelukwanda.com/ npm run build
 
 cd build
 
+# Create or update the CNAME file with your custom domain
+echo "sicelukwanda.com" > CNAME
+
 git init
+git checkout -b main
 git add -A
+
 git commit -m 'deploy'
 
 # deploying to https://{USERNAME}.github.io (see https://pages.github.com for instructions)
