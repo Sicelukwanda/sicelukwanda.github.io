@@ -8,7 +8,7 @@ const ExperienceTimeline = ({ experiences }) => (
           <p>{exp.duration}</p>
           <h3>{exp.title}</h3>
           <h4>{exp.company}</h4>
-          {/* <p>{exp.description}</p> */}
+          <p>{exp.description}</p>
         </div>
       ))}
     </div>
