@@ -149,6 +149,10 @@ body, html {
   color:#908b8b;
 }
 
+.ProjectContent .Venue {
+  text-align: center;
+}
+
 .ProjectCard p {
   padding: 0 1em;
   font-size: 0.7em;
@@ -181,6 +185,13 @@ body, html {
 }
 
 
+.ProjectContent {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1em; /* Adds spacing between text fields */
+  flex-grow: 1; /* Ensures content grows to fill available space */
+}
+
 /* Ensure the links stay in a row */
 .ProjectCard div.links-row {
   display: flex;
@@ -210,6 +221,7 @@ body, html {
   /* .ProjectCard h2 {
     font-size: 1.2em;
   } */
+
 }
 
 /* Additional responsiveness for very small devices */
@@ -220,7 +232,7 @@ body, html {
 
   .ProjectCard {
     margin: 0.5em auto;
-    max-width: 90%;
+    max-width: 95%;
   }
 }
 
