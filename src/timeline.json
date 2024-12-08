@@ -4,7 +4,7 @@
     "title": "Doctoral Student",
     "company": "University College London",
     "duration": "2020 - Present",
-    "description": ""
+    "description": "Performing research towards the pursuit of a PhD under the supervision of Professor Marc deisenroth and Professor Dimitrios Kanoulas."
   },
   {
     "id": 2,
@@ -15,21 +15,21 @@
     "description": "Using generative models for safe motion planning with mobile robots in crowded spaces (shopping malls, science museums, etc)."
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "Postgraduate Teaching Assistant",
     "company": "University College London",
     "duration": "2020 - 2023",
     "description": "Developing and assessing student coursework in C++ (Robot Sensing, Interaction, and Manipulation)"
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "Data Scientist",
     "company": "Explore AI",
     "duration": "2019 - 2020",
     "description": "Developed a data-science training course which compressed machine learning (regression, classiﬁcation, and unsupervised learning) into 6 months"
   },
   {
-    "id": 3,
+    "id": 5,
     "title": "MSc Research Intern - Field Robotics",
     "company": "Council for Scientific and Industrial Research (CSIR)",
     "duration": "2017 - 2019",
